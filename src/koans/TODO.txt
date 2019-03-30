@@ -1,0 +1,3 @@
+TODO:
+
+study - sequence comprehensions , last example that uses binding-forms
