@@ -33,3 +33,27 @@
   (= "longest" (reduce (fn [a b]
                          (if (< (count a) (count b)) b a))
                        ["which" "word" "is" "longest"])))
+
+
+;First Class Functions
+;
+;In functional programming, functions are first class citizens. This means functions can be
+; treated as values. They can be assigned as values, passed into functions, and returned from
+; functions.
+;
+;It’s common to see function definitions in Clojure using defn like (defn foo …​). However,
+; this is just syntactic sugar for (def foo (fn …​)) fn returns a function object. defn returns
+; a var which points to a function object.
+
+
+;Higher Order Functions
+;
+;A higher order function is a function that either:
+;
+;Takes one or more functions as arguments
+;Returns a function as its result
+;This is an important concept in functional programming in any language.
+;
+;Higher order functions allow us to compose functions. This means we can write small functions
+;and combine them to create larger functions. Like putting a bunch of small LEGO bricks
+;together to build a house.
