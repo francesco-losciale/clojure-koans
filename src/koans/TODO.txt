@@ -1,3 +1,4 @@
-TODO:
+TODO study:
 
-study - sequence comprehensions , last example that uses binding-forms
+sequence comprehensions page, see last example that uses binding-forms
+tail-recursion from SICP
