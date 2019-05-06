@@ -4,3 +4,5 @@ sequence comprehensions page, see last example that uses binding-forms
 tail-recursion from SICP
 concept of transaction (see refs.clj)
 atoms - how they work
+meta
+macros - practice more
